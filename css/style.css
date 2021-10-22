@@ -4,8 +4,34 @@
     padding:0;
     box-sizing: border-box;
 }
+/* COMMON */
 body{
-    /* test */
+    font-family: 'Lato', sans-serif;
+}
+/* HEADER */
+header{
+    height: 100px;
     width:100%;
-    height:100vh;
+    /* test */
+    background-color: bisque;
+}
+.view-selection{
+
+}
+.view-user{
+    
+}
+/* MAIN */
+main{
+    width:100%;
+    height: calc(100vh - 250px);
+        /* test */
+    background-color: rgb(58, 131, 190);
+}
+/* FOOTER */
+footer{
+    height: 150px;
+    width:100%;
+        /* test */
+    background-color: rgb(241, 143, 23);
 }
