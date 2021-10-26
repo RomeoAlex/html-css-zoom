@@ -12,21 +12,49 @@ body{
 header{
     height: 100px;
     width:100%;
+    padding-top: 5 px;
     /* test */
     background-color: bisque;
 }
 .view-selection{
+    padding: 10px;
+
+    /* test */
+    
+    background-color: rgb(43, 189, 226);
+}
+.view-selection a{
+    padding:3px 5px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color:white;
+}
+.view-menu{
+    display: flex;
+    justify-content: flex-end;
 
 }
-.view-user{
-    
-}
+
 /* MAIN */
 main{
     width:100%;
     height: calc(100vh - 250px);
         /* test */
     background-color: rgb(58, 131, 190);
+}
+.user-cam{
+    height:200px;
+    width:200px;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.user-icon{
+    background-color: rgba(0, 0, 0, 0.4);
 }
 /* FOOTER */
 footer{
