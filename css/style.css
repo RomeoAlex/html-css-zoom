@@ -35,7 +35,7 @@ header{
 /* MAIN */
 main{
     width:100%;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 200px);
 
 }
 .users-container{
@@ -44,7 +44,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    /* align-content: space-around; */
+    overflow-y: scroll;
+    height: 100%;
 }
 .user-cam{
     height:200px;
@@ -67,8 +69,13 @@ main{
 
 /* FOOTER */
 footer{
-    height: 150px;
+    height: 100px;
     width:100%;
+    display: flex;
+    justify-content: space-between;
         /* test */
     background-color: rgb(241, 143, 23);
+}
+.av-controls{
+    display: inline-block;
 }
