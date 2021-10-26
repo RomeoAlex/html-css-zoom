@@ -7,21 +7,17 @@
 /* COMMON */
 body{
     font-family: 'Lato', sans-serif;
+    /* test */
+    background-color: black;
 }
 /* HEADER */
 header{
     height: 100px;
     width:100%;
     padding-top: 5 px;
-    /* test */
-    background-color: bisque;
 }
 .view-selection{
     padding: 10px;
-
-    /* test */
-    
-    background-color: rgb(43, 189, 226);
 }
 .view-selection a{
     padding:3px 5px;
@@ -34,7 +30,6 @@ header{
 .view-menu{
     display: flex;
     justify-content: flex-end;
-
 }
 
 /* MAIN */
@@ -44,18 +39,26 @@ main{
         /* test */
     background-color: rgb(58, 131, 190);
 }
+.users-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
 .user-cam{
     height:200px;
-    width:200px;
-    background-color: violet;
+    width:300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    background-image: url("../img/image.jpg");
+    background-size: cover;
 }
 .user-icon{
     background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 2px;
 }
+
 /* FOOTER */
 footer{
     height: 150px;
