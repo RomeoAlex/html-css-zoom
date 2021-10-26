@@ -36,24 +36,30 @@ header{
 main{
     width:100%;
     height: calc(100vh - 250px);
-        /* test */
-    background-color: rgb(58, 131, 190);
+
 }
 .users-container{
+    margin: auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 .user-cam{
     height:200px;
     width:300px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url("../img/image.jpg");
     background-size: cover;
+    /* test */
+
 }
+
 .user-icon{
     background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 2px;
