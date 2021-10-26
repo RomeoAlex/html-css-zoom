@@ -57,7 +57,7 @@ main{
     background-image: url("../img/image.jpg");
     background-size: cover;
     /* test */
-
+    margin-bottom: 10px;
 }
 
 .user-icon{
